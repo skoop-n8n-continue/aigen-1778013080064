@@ -1,0 +1,51 @@
+{
+  "app_id": "aigen-1778013080064",
+  "document_version": 1,
+  "sections": {
+    "storefront": {
+      "company_name": {
+        "type": "text",
+        "label": "Company Name",
+        "value": "Hello World Corp"
+      },
+      "logo": {
+        "type": "file",
+        "label": "Company Logo",
+        "value": "assets/logo_h7k2m9.svg",
+        "meta": {
+          "accepted_formats": ["png", "jpg", "svg"],
+          "path": "assets/"
+        }
+      }
+    },
+    "app_settings": {
+      "primary_color": {
+        "type": "color",
+        "label": "Primary Color",
+        "value": "#00b7af"
+      },
+      "background_color": {
+        "type": "color",
+        "label": "Background Color",
+        "value": "#10181f"
+      },
+      "text_color": {
+        "type": "color",
+        "label": "Text Color",
+        "value": "#ffffff"
+      }
+    },
+    "hero": {
+      "headline": {
+        "type": "text",
+        "label": "Headline",
+        "value": "Hello, World!"
+      },
+      "message": {
+        "type": "textarea",
+        "label": "Message",
+        "value": "Welcome to your new Skoop signage application. This is a simple Hello World example."
+      }
+    }
+  }
+}
